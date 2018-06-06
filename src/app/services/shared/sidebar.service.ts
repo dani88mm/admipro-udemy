@@ -12,6 +12,7 @@ export class SidebarService {
         { titulo: 'ProgressBar', url: '/progress' },
         { titulo: 'Graficas', url: '/graficas1' },
         { titulo: 'Promesas', url: '/promesas' },
+        { titulo: 'Ajustes', url: '/account-settings' },
         { titulo: 'Rxjs', url: '/rxjs' },
       ]
     }
