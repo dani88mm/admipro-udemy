@@ -14,6 +14,10 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { GraficoDonaComponent } from '../components/graficoDona/graficoDona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 // Modules
 import { SharedModule } from '../shared/shared.module';
@@ -23,7 +27,6 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 
 // Pipes
 import { PipesModule } from '../pipes/pipes.module';
-
 
 @NgModule({
     declarations: [
@@ -36,7 +39,11 @@ import { PipesModule } from '../pipes/pipes.module';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        MedicosComponent,
+        HospitalesComponent,
+        ModalUploadComponent
     ],
     exports: [
         DashboardComponent,

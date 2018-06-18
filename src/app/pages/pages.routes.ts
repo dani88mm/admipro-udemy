@@ -11,6 +11,9 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
+import { MedicosComponent } from './medicos/medicos.component';
 
 
 const pagesRoutes: Routes = [
@@ -26,6 +29,10 @@ const pagesRoutes: Routes = [
             {path: 'rxjs', component: RxjsComponent, data: { titulo: 'RxJs'} },
             {path: 'account-settings', component: AccountSettingsComponent, data: { titulo: 'Ajustes del Tema'} },
             {path: 'perfil', component: ProfileComponent, data: { titulo: 'Perfil de usuario'} },
+            // Mantenimientos
+            {path: 'usuarios', component: UsuariosComponent, data: { titulo: 'mantenimiento de usuarios'} },
+            {path: 'hospitales', component: HospitalesComponent, data: { titulo: 'mantenimiento de hospitales'} },
+            {path: 'medicos', component: MedicosComponent, data: { titulo: 'mantenimiento de medicos'} },
             {path: '', redirectTo: '/dashboard', pathMatch: 'full' },
         ]
     },
